@@ -10,9 +10,9 @@
     </author>
     <updated>2023-04-12T02:59:00.000Z</updated>
     <entry>
-        <id>https://old-lane.github.io/course/build-blog/</id>
+        <id>https://old-lane.github.io/course/build-blog</id>
         <title>使用Hexo搭建个人博客</title>
-        <link rel="alternate" href="https://old-lane.github.io/course/build-blog/"/>
+        <link rel="alternate" href="https://old-lane.github.io/course/build-blog"/>
         <content type="html">&lt;h1 id=&#34;安装-hexo-脚手架&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装-hexo-脚手架&#34;&gt;#&lt;/a&gt; 安装 Hexo 脚手架&lt;/h1&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; i &lt;span class=&#34;token parameter variable&#34;&gt;-g&lt;/span&gt; hexo-cli&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;初始化-hexo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#初始化-hexo&#34;&gt;#&lt;/a&gt; 初始化 Hexo&lt;/h1&gt;
 &lt;p&gt;在项目目录下执行&lt;/p&gt;
@@ -67,9 +67,9 @@
         <updated>2023-04-12T02:59:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://old-lane.github.io/hello-world/</id>
+        <id>https://old-lane.github.io/hello-world</id>
         <title>Hello World</title>
-        <link rel="alternate" href="https://old-lane.github.io/hello-world/"/>
+        <link rel="alternate" href="https://old-lane.github.io/hello-world"/>
         <content type="html">&lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
 &lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
@@ -84,9 +84,9 @@
         <updated>2023-04-12T02:40:34.945Z</updated>
     </entry>
     <entry>
-        <id>https://old-lane.github.io/interview/java-problem/</id>
+        <id>https://old-lane.github.io/interview/java-problem</id>
         <title>java面试题</title>
-        <link rel="alternate" href="https://old-lane.github.io/interview/java-problem/"/>
+        <link rel="alternate" href="https://old-lane.github.io/interview/java-problem"/>
         <content type="html">&lt;p&gt;java 面试题准备&lt;/p&gt;
 </content>
         <category term="面试" scheme="https://old-lane.github.io/categories/interview/" />
