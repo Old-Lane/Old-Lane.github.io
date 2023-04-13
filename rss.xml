@@ -13,9 +13,9 @@
         <pubDate>Wed, 12 Apr 2023 10:59:00 +0800</pubDate>
         <lastBuildDate>Wed, 12 Apr 2023 10:59:00 +0800</lastBuildDate>
         <item>
-            <guid isPermalink="true">https://old-lane.github.io/2023/04/12/course/build-blog/</guid>
+            <guid isPermalink="true">https://old-lane.github.io/course/build-blog/</guid>
             <title>使用Hexo搭建个人博客</title>
-            <link>https://old-lane.github.io/2023/04/12/course/build-blog/</link>
+            <link>https://old-lane.github.io/course/build-blog/</link>
             <category term="教程" scheme="https://old-lane.github.io/categories/course/" />
             <pubDate>Wed, 12 Apr 2023 10:59:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;安装-hexo-脚手架&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装-hexo-脚手架&#34;&gt;#&lt;/a&gt; 安装 Hexo 脚手架&lt;/h1&gt;
@@ -70,9 +70,9 @@
 &lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token front-matter-block&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;---&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token front-matter yaml language-yaml&#34;&gt;&lt;span class=&#34;token key atrule&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 文章的标题&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;date&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 文章发布是年/月/日 时/分/秒&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;categories&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;博客的分类&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;tags&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;---&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;#&lt;/span&gt; 这里开始使用Markdown书写博客正文&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://old-lane.github.io/2023/04/12/hello-world/</guid>
+            <guid isPermalink="true">https://old-lane.github.io/hello-world/</guid>
             <title>Hello World</title>
-            <link>https://old-lane.github.io/2023/04/12/hello-world/</link>
+            <link>https://old-lane.github.io/hello-world/</link>
             <pubDate>Wed, 12 Apr 2023 10:40:34 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
@@ -87,9 +87,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://old-lane.github.io/2023/04/12/interview/java-problem/</guid>
+            <guid isPermalink="true">https://old-lane.github.io/interview/java-problem/</guid>
             <title>java面试题</title>
-            <link>https://old-lane.github.io/2023/04/12/interview/java-problem/</link>
+            <link>https://old-lane.github.io/interview/java-problem/</link>
             <category term="面试" scheme="https://old-lane.github.io/categories/interview/" />
             <pubDate>Wed, 12 Apr 2023 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;java 面试题准备&lt;/p&gt;

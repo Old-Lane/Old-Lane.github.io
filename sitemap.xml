@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://old-lane.github.io/2023/04/12/interview/java-problem/</loc>
+    <loc>https://old-lane.github.io/course/build-blog/</loc>
+    
+    <lastmod>2023-04-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://old-lane.github.io/interview/java-problem/</loc>
     
     <lastmod>2023-04-12</lastmod>
     
@@ -11,16 +20,7 @@
   </url>
   
   <url>
-    <loc>https://old-lane.github.io/2023/04/12/course/build-blog/</loc>
-    
-    <lastmod>2023-04-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://old-lane.github.io/2023/04/12/hello-world/</loc>
+    <loc>https://old-lane.github.io/hello-world/</loc>
     
     <lastmod>2023-04-12</lastmod>
     
@@ -31,7 +31,7 @@
 
   <url>
     <loc>https://old-lane.github.io/</loc>
-    <lastmod>2023-04-12</lastmod>
+    <lastmod>2023-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -41,14 +41,14 @@
   
   <url>
     <loc>https://old-lane.github.io/categories/course/</loc>
-    <lastmod>2023-04-12</lastmod>
+    <lastmod>2023-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://old-lane.github.io/categories/interview/</loc>
-    <lastmod>2023-04-12</lastmod>
+    <lastmod>2023-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
