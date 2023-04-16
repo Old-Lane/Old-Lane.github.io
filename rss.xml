@@ -10,8 +10,73 @@
         </author>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Wed, 12 Apr 2023 10:59:00 +0800</pubDate>
-        <lastBuildDate>Wed, 12 Apr 2023 10:59:00 +0800</lastBuildDate>
+        <pubDate>Sun, 16 Apr 2023 15:24:00 +0800</pubDate>
+        <lastBuildDate>Sun, 16 Apr 2023 15:24:00 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">https://old-lane.github.io/course/rabbitmq/</guid>
+            <title>使用 Docker 安装 RabbitMq</title>
+            <link>https://old-lane.github.io/course/rabbitmq/</link>
+            <category term="教程" scheme="https://old-lane.github.io/categories/course/" />
+            <category term="教程" scheme="https://old-lane.github.io/tags/%E6%95%99%E7%A8%8B/" />
+            <category term="rabbitmq" scheme="https://old-lane.github.io/tags/rabbitmq/" />
+            <pubDate>Sun, 16 Apr 2023 15:24:00 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;使用-docker-安装-rabbitmq&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用-docker-安装-rabbitmq&#34;&gt;#&lt;/a&gt; 使用 Docker 安装 RabbitMq&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;拉取 RabbitMQ 镜像：使用以下命令从 Docker Hub 拉取最新的 RabbitMQ 镜像。&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; pull rabbitmq&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;启动 RabbitMQ 容器：使用以下命令在 Docker 中启动一个 RabbitMQ 容器。此命令将会创建一个名为 “my-rabbit” 的 RabbitMQ 容器，并将 RabbitMQ 的 5672 端口映射到主机的 5672 端口。&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; run &lt;span class=&#34;token parameter variable&#34;&gt;-d&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;--name&lt;/span&gt; my-rabbit &lt;span class=&#34;token parameter variable&#34;&gt;-p&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5672&lt;/span&gt;:5672 rabbitmq&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;检查 RabbitMQ 状态：使用以下命令检查 RabbitMQ 容器的状态：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;ps&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;如果容器正在运行，则应该能够看到名为 “my-rabbit” 的容器。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;访问 RabbitMQ 管理控制台：如果您想通过 Web 界面管理 RabbitMQ，则需要打开 RabbitMQ 的 Web 管理控制台。使用以下命令启动一个新的 RabbitMQ 容器，该容器包括 Web 管理插件，并将其 5672 和 15672 端口映射到主机的相应端口：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; run &lt;span class=&#34;token parameter variable&#34;&gt;-d&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;--name&lt;/span&gt; my-rabbit &lt;span class=&#34;token parameter variable&#34;&gt;-p&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5672&lt;/span&gt;:5672 &lt;span class=&#34;token parameter variable&#34;&gt;-p&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;15672&lt;/span&gt;:15672 rabbitmq:management&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;最后可以在浏览器访问 ip+:15672 访问 RabbitMQ 的 Web 管理控制台了&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;不能访问的情况&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#不能访问的情况&#34;&gt;#&lt;/a&gt; 不能访问的情况&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可能是 &lt;code&gt;5672&lt;/code&gt;  和  &lt;code&gt;15672&lt;/code&gt;  端口未打开，可执行以下命令打开端口&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;打开 TCP 5672 端口：这是 RabbitMQ 默认使用的 AMQP 协议端口，用于消息传输。可以使用以下命令打开 TCP 5672 端口：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; firewall-cmd &lt;span class=&#34;token parameter variable&#34;&gt;--zone&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;public --add-port&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;5672&lt;/span&gt;/tcp &lt;span class=&#34;token parameter variable&#34;&gt;--permanen&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;然后使用以下命令重新加载防火墙配置&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; firewall-cmd &lt;span class=&#34;token parameter variable&#34;&gt;--reload&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;打开 TCP 15672 端口：这是 RabbitMQ Web 管理界面使用的端口。可以使用以下命令打开 TCP 15672 端口：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; firewall-cmd &lt;span class=&#34;token parameter variable&#34;&gt;--zone&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;public --add-port&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;15672&lt;/span&gt;/tcp &lt;span class=&#34;token parameter variable&#34;&gt;--permanent&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;然后使用以下命令重新加载防火墙配置：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; firewall-cmd &lt;span class=&#34;token parameter variable&#34;&gt;--reload&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;最后重启一下 rabbitmq 镜像&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#查看容器 id&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;ps&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; stop 容器id&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;rm&lt;/span&gt; 容器id&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#重启&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; run &lt;span class=&#34;token parameter variable&#34;&gt;-d&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;--name&lt;/span&gt; my-rabbit &lt;span class=&#34;token parameter variable&#34;&gt;-p&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5672&lt;/span&gt;:5672 &lt;span class=&#34;token parameter variable&#34;&gt;-p&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;15672&lt;/span&gt;:15672 rabbitmq:management&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这样应该就能成功访问了&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;....%5Cimages%5Crabbitmq%5Crabbitmq-start.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://old-lane.github.io/course/vercel-build-antdpro/</guid>
+            <title>使用 Vercel 部署 Ant Design Pro 项目</title>
+            <link>https://old-lane.github.io/course/vercel-build-antdpro/</link>
+            <category term="教程" scheme="https://old-lane.github.io/categories/course/" />
+            <category term="教程" scheme="https://old-lane.github.io/tags/%E6%95%99%E7%A8%8B/" />
+            <category term="Vercel" scheme="https://old-lane.github.io/tags/Vercel/" />
+            <category term="前端" scheme="https://old-lane.github.io/tags/%E5%89%8D%E7%AB%AF/" />
+            <category term="部署" scheme="https://old-lane.github.io/tags/%E9%83%A8%E7%BD%B2/" />
+            <pubDate>Sat, 15 Apr 2023 07:43:00 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;注册-vercel-账号&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#注册-vercel-账号&#34;&gt;#&lt;/a&gt; 注册 Vercel 账号&lt;/h2&gt;
+&lt;p&gt;官网：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly92ZXJjZWwuY29tLw==&#34;&gt;Vercel: Develop. Preview. Ship. For the best frontend teams&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意：Vercel 在国内被墙了，需要魔法访问&lt;/p&gt;
+&lt;/blockquote&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://old-lane.github.io/course/build-blog/</guid>
             <title>使用Hexo搭建个人博客</title>

@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://old-lane.github.io/course/rabbitmq/</loc>
+    
+    <lastmod>2023-04-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://old-lane.github.io/course/vercel-build-antdpro/</loc>
+    
+    <lastmod>2023-04-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://old-lane.github.io/course/build-blog/</loc>
     
     <lastmod>2023-04-13</lastmod>
@@ -31,7 +49,7 @@
 
   <url>
     <loc>https://old-lane.github.io/</loc>
-    <lastmod>2023-04-13</lastmod>
+    <lastmod>2023-04-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -39,14 +57,42 @@
   
   <url>
     <loc>https://old-lane.github.io/tags/Hexo/</loc>
-    <lastmod>2023-04-13</lastmod>
+    <lastmod>2023-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://old-lane.github.io/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2023-04-13</lastmod>
+    <lastmod>2023-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://old-lane.github.io/tags/rabbitmq/</loc>
+    <lastmod>2023-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://old-lane.github.io/tags/Vercel/</loc>
+    <lastmod>2023-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://old-lane.github.io/tags/%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2023-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://old-lane.github.io/tags/%E9%83%A8%E7%BD%B2/</loc>
+    <lastmod>2023-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -55,14 +101,14 @@
   
   <url>
     <loc>https://old-lane.github.io/categories/course/</loc>
-    <lastmod>2023-04-13</lastmod>
+    <lastmod>2023-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://old-lane.github.io/categories/interview/</loc>
-    <lastmod>2023-04-13</lastmod>
+    <lastmod>2023-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
