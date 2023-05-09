@@ -1,3 +1,4 @@
+https://old-lane.github.io/course/centos-expansion/
 https://old-lane.github.io/course/rabbitmq/
 https://old-lane.github.io/course/vercel-build-antdpro/
 https://old-lane.github.io/course/build-blog/
