@@ -23,6 +23,7 @@
             <description><![CDATA[ &lt;blockquote&gt;
 &lt;p&gt;针对 VMware 虚拟机默认分区的  &lt;code&gt;CentOS 7&lt;/code&gt;  系统，根目录在  &lt;code&gt;/dev/sda&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;原理：先删除  &lt;code&gt;sda3&lt;/code&gt; ，再重建  &lt;code&gt;sda3&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;参考：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lhbmcxMzkzMjE0ODg3L2FydGljbGUvZGV0YWlscy8xMjAzNDU4ODQ=&#34;&gt;https://blog.csdn.net/yang1393214887/article/details/120345884&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;开始扩容&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#开始扩容&#34;&gt;#&lt;/a&gt; 开始扩容&lt;/h2&gt;
 &lt;h3 id=&#34;1-vmware-虚拟机扩容&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-vmware-虚拟机扩容&#34;&gt;#&lt;/a&gt; 1、VMware 虚拟机扩容&lt;/h3&gt;
